@@ -70,7 +70,7 @@ It reflects a **build-when-gaps-exist** engineering mindset—not just tool usag
 
 ## Screenshots / Demo
 
-> Demo GIFs and screenshots reflect real output from the tool against common automation flows (login, add-to-cart, verification).
+> Demo GIF below reflects real output from the tool against common automation flows (login, add-to-cart, verification).
 
 ![Playwright Manual-to-Test Generator demo](assets/DemoFinal.gif)
 
