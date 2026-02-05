@@ -95,7 +95,7 @@ https://tekqaconsulting.gumroad.com/l/playwright-manual-to-test-generator
 
 - TekQA Consulting: https://tekqaconsulting.com  
 - Playwright Portfolio: https://github.com/rmgoede/tekqa-playwright-portfolio  
-- Postman API Portfolio: https://github.com/rmgoede/tekqa-postman-portfolio  
+- Postman API Portfolio: https://github.com/rmgoede/qa-apis-postman-sample
 
 ---
 
