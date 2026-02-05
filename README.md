@@ -74,6 +74,7 @@ It reflects a **build-when-gaps-exist** engineering mindset—not just tool usag
 
 (Visuals intentionally omitted from this repo to keep it lightweight.)
 
+https://github.com/rmgoede/playwright-manual-to-test-generator-info/blob/main/assets/DemoFinal.gif
 ---
 
 ## Access & Availability
