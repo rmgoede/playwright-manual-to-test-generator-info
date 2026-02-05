@@ -37,7 +37,7 @@ The **Playwright Manual-to-Test Generator** converts **plain-text manual test st
 - A **single, runnable Playwright TypeScript test**
 - Using **deterministic generation rules**
 - With **Playwright-recommended structure and locators**
-- No AI guessing, scraping, or DOM hallucination
+- No heuristic selector inference, scraping, or DOM inspection
 
 Output is designed to be:
 - Predictable
