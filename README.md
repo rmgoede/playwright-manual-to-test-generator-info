@@ -72,9 +72,8 @@ It reflects a **build-when-gaps-exist** engineering mindset—not just tool usag
 
 > Demo GIFs and screenshots reflect real output from the tool against common automation flows (login, add-to-cart, verification).
 
-(Visuals intentionally omitted from this repo to keep it lightweight.)
+![Playwright Manual-to-Test Generator demo](assets/DemoFinal.gif)
 
-https://github.com/rmgoede/playwright-manual-to-test-generator-info/blob/main/assets/DemoFinal.gif
 ---
 
 ## Access & Availability
