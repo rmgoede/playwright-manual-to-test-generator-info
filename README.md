@@ -87,7 +87,7 @@ Access options:
 - This is intended for experienced engineers evaluating a real migration workflow—not a plug-and-play automation product.
 
 👉 **Access details:**  
-https://tekqaconsulting.gumroad.com/l/playwright-manual-to-test-generator
+https://gum.co/u/hcw0webd
 
 ---
 
