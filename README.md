@@ -1,32 +1,39 @@
 # playwright-manual-to-test-generator-info
-Deterministic internal tool: manual steps → runnable Playwright TypeScript tests (overview repo)
+
+Deterministic tool: manual steps → runnable Playwright TypeScript tests (overview repo)
+
+---
 
 # Playwright Manual-to-Test Generator (Overview)
 
 **Manual test steps → deterministic Playwright TypeScript tests**
 
-This repository is an **overview and documentation-only landing page** for an internal QA tool built by **Ryan Goede (TekQA Consulting)** to solve a real-world manual-to-automation migration problem.
+This repository is an **overview and documentation landing page** for a QA tool built by **Ryan Goede (TekQA Consulting)** to solve a real-world manual-to-automation migration problem.
 
-The actual implementation lives in a **private repository** and is shared selectively.  
-This public repo exists to explain **what the tool does, why it exists, and how it’s used**.
+✅ **Source code (open-source implementation):**  
+https://github.com/rmgoede/playwright-manual-to-test-generator
+
+This repo exists to explain **what the tool does, why it exists, and how it’s used**.
 
 ---
 
 ## The Problem This Tool Solves
 
 Many teams still maintain large regression suites as:
+
 - Excel spreadsheets  
 - ALM / QC test cases  
 - Jira tickets  
 - Plain-text procedural steps  
 
 Manually converting these into Playwright tests is:
-- Slow
-- Error-prone
-- Inconsistent
-- Hard to scale
 
-Prompting an LLM helps—but results vary run to run and don’t create a repeatable workflow.
+- Slow  
+- Error-prone  
+- Inconsistent  
+- Hard to scale  
+
+Prompting an LLM helps — but results vary run to run and don’t create a repeatable workflow.
 
 ---
 
@@ -40,9 +47,10 @@ The **Playwright Manual-to-Test Generator** converts **plain-text manual test st
 - No heuristic selector inference, scraping, or DOM inspection
 
 Output is designed to be:
-- Predictable
-- Readable
-- Easy to refine once the real DOM is inspected
+
+- Predictable  
+- Readable  
+- Easy to refine once the real DOM is inspected  
 
 ---
 
@@ -60,11 +68,13 @@ Some selector refinement is expected by design.
 ## How It’s Used
 
 This tool is used:
-- Internally by TekQA Consulting
-- As part of modernization and automation engagements
-- To accelerate large manual → Playwright migration efforts
 
-It reflects a **build-when-gaps-exist** engineering mindset—not just tool usage.
+- By QA engineers modernizing legacy test suites
+- During manual → Playwright migration efforts
+- As a repeatable workflow for generating first-draft automation
+- As a practical example of build-when-gaps-exist engineering
+
+It reflects a **build tooling when needed**, not just use tooling mindset.
 
 ---
 
@@ -76,18 +86,13 @@ It reflects a **build-when-gaps-exist** engineering mindset—not just tool usag
 
 ---
 
-## Access & Availability
+## Source Code & Quick Start
 
-The implementation repository is **private**.
+The generator is fully open-source:
 
-Access options:
-- Shared selectively for evaluation
-- Included as a documented proof-of-work artifact
-- Available via Gumroad for individuals who want hands-on access
-- This is intended for experienced engineers evaluating a real migration workflow—not a plug-and-play automation product.
+👉 https://github.com/rmgoede/playwright-manual-to-test-generator
 
-👉 **Access details:**  
-https://gum.co/u/hcw0webd
+Installation and usage instructions are in the main repository README.
 
 ---
 
@@ -105,4 +110,4 @@ Built by **Ryan Goede**
 Senior QA Engineer | Automation & CI/CD  
 28+ years across healthcare, banking, government, and e-commerce
 
-This repo exists to document **real tooling built for real problems**.
+This repo documents **real tooling built for real automation problems**.
