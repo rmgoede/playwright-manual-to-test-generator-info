@@ -1,6 +1,6 @@
 # playwright-manual-to-test-generator-info
 
-Deterministic tool: manual steps → runnable Playwright TypeScript tests (overview repo)
+Deterministic QA tool: manual steps → consistent Playwright TypeScript tests (overview repo)
 
 ---
 
@@ -10,8 +10,10 @@ Deterministic tool: manual steps → runnable Playwright TypeScript tests (overv
 
 This repository is an **overview and documentation landing page** for a QA tool built by **Ryan Goede (TekQA Consulting)** to solve a real-world manual-to-automation migration problem.
 
-✅ **Source code (open-source implementation):**  
-https://github.com/rmgoede/playwright-manual-to-test-generator
+👉 **Main Repository (Code + Extension)**  
+https://github.com/rmgoede/playwright-manual-to-test-generator  
+
+Use this to install and run the generator.
 
 This repo exists to explain **what the tool does, why it exists, and how it’s used**.
 
