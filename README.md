@@ -33,7 +33,7 @@ Manually converting these into Playwright tests is:
 - Inconsistent  
 - Hard to scale  
 
-Prompting an LLM helps — but results vary run to run and don’t create a repeatable workflow.
+Prompting an LLM helps — but direct code generation can vary run to run.
 
 ---
 
@@ -45,6 +45,7 @@ The **Playwright Manual-to-Test Generator** converts **plain-text manual test st
 - Using **deterministic generation rules**
 - With **Playwright-recommended structure and locators**
 - No heuristic selector inference, scraping, or DOM inspection
+- Uses a structured JSON contract (V1.5) to enforce consistent output
 
 Output is designed to be:
 
@@ -53,10 +54,38 @@ Output is designed to be:
 - Easy to refine once the real DOM is inspected  
 
 ---
+## How It Works (Architecture)
+
+The generator supports two modes:
+
+**V1 (Direct Generation)**  
+Manual Steps  
+→ LLM  
+→ Playwright TypeScript test  
+
+**V1.5 (Structured Mode)**  
+Manual Steps  
+→ LLM  
+→ Structured JSON (schema-enforced)  
+→ Deterministic Renderer  
+→ Playwright TypeScript test  
+
+### Why this matters
+
+Instead of letting the LLM generate final code directly,  
+V1.5 introduces a structured contract (JSON) between interpretation and execution.
+
+This results in:
+
+- More consistent output  
+- Reduced variability between runs  
+- Clear validation boundaries  
+- Deterministic final code generation
+---
 
 ## Key Characteristics
 
-- Deterministic output (same input → same test)
+- Controlled, consistent output (schema + renderer reduce variability)
 - Rule-based selector generation (role/text-based)
 - Produces a clean first draft, not a “magic” passing test
 - Designed for **real migration work**, not demos
